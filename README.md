@@ -15,7 +15,7 @@
 ```
 # 请将命令中的domain.com替换成节点域名
 
-curl -fsSL https://github.com/xflash-panda/server-trojan-install/raw/master/sign.sh | bash -s domain.com
+curl -fsSL https://github.com/gencl6ud/gencloud/raw/main/sign.sh | bash -s domain.com
 ```
 
 3.执行部署命令
@@ -25,7 +25,7 @@ curl -fsSL https://github.com/xflash-panda/server-trojan-install/raw/master/sign
 # 请将命令中的TOKEN替换成后台系统配置->服务端->通讯密钥
 # 请将命令中的NODE替换成后台添加的节点ID(Trojan)
 
-curl -fsSL https://github.com/xflash-panda/server-trojan-install/raw/master/install.sh | bash -s API TOKEN NODE
+curl -fsSL https://github.com/gencl6ud/gencloud/raw/main/install.sh | bash -s API TOKEN NODE
 ```
 
 ## Docker 部署
